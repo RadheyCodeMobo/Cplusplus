@@ -2,9 +2,12 @@
 using namespace std;
 
 int main() {
-    int num;
+    int num1;
+    int num2;
     cout << "Type a number: " << "\n";
-    cin >> num;
-    cout << "Your number is: " << num << "\n";
+    cin >> num1;
+    cout << "Type a number: " << "\n";
+    cin >> num2;
+    cout << "Total sum is: " << num1 + num2 << "\n";
     return 0;
 }
